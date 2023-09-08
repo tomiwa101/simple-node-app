@@ -30,3 +30,7 @@ Step 4: create `user-account` _db_ and `users` _collection_ in mongo-express
 Step 5: Access you nodejs application UI from browser
 
     http://localhost:3000
+
+Step 6: Shut down the application
+
+    docker-compose down --volume
